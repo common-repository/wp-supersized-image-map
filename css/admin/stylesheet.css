@@ -1,0 +1,18 @@
+#edit-slug-box{display:none;}
+
+/* THUMBNAIL*/
+#div_sim_thumbnail{width:800px; height:800px; overflow:hidden;}
+#div_sim_thumbnail_wrapper{float:left; width:100%; height:100%; position:relative;}
+
+#div_sim_image{width:100%; height:100%; position:absolute; z-index:1;
+top:0; left:0;}
+#div_sim_image img{float:left; cursor:pointer;}
+
+#div_sim_spots{position:absolute; z-index:2;
+top:0; left:0;}
+#div_sim_spots ul{position:absolute; z-index:3;
+top:0; left:0;}
+#div_sim_spots ul li{width:5px; height:5px; text-indent:-9999px; overflow:hidden;
+position:absolute; z-index:4;
+background:red;
+/*top:0; left:0;*/}
